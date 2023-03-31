@@ -16,7 +16,7 @@ df1 = df.plot(kind='scatter', x='Product', y='Quantity Ordered', title='Sales di
 print(df1)
 plt.show()
 
-df = sns.scatterplot(x='Product', y='Quantity Ordered', hue='Product')
-df.set_title('Sales per product')
+#df = sns.scatterplot(x='Product', y='Quantity Ordered', hue='Product')
+#df.set_title('Sales per product')
 
-plt.show()
+#plt.show()
