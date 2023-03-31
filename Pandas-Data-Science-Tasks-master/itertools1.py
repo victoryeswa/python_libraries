@@ -17,3 +17,10 @@ b = [3]
 prod1 = product (a, b, repeat=2)
 
 print(list(prod1))
+
+from itertools import permutations
+
+a = [1, 2, 3]
+perm = permutations(a)
+
+print(list(perm))
